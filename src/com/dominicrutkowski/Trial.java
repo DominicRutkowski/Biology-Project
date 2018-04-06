@@ -5,11 +5,6 @@ public class Trial {
     private Bead bead1;
     private Bead bead2;
 
-    public Trial() {
-        bead1 = (short) Math.round(Math.random()) == 0 ? Bead.GREEN : Bead.YELLOW;
-        short random2
-    }
-
     public Trial(Bead bead1, Bead bead2) {
         this.bead1 = bead1;
         this.bead2 = bead2;
